@@ -1,0 +1,17 @@
+{
+  "name": "SocketServerBasic",
+  "version": "1.0.0",
+  "description": "Basic websocket server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": "https://github.com/jdavellanedag/BasicSocketServer.git",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  }
+}
